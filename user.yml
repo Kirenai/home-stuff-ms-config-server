@@ -14,7 +14,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
     webclient:
-      enable: true
+      enabled: true
 
 application:
   jwt:

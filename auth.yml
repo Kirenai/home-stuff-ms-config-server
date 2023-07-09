@@ -9,12 +9,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-
-application:
-  jwt:
-    secretKey: secretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecret
-    tokenPrefix: "Bearer "
-    tokenExpirationAfterDays: 1
-    internal:
-      username: yelan
-      roleName: ROLE_USER

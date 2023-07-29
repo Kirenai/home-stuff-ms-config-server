@@ -1,0 +1,15 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: consumption
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/hs_consumption
+    username: root
+    password: BBDDlocal361
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

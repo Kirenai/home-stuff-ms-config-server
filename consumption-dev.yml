@@ -5,7 +5,7 @@ spring:
   application:
     name: consumption
   r2dbc:
-    url: r2dbc:mysql://localhost:3306/hs_consumption
+    url: r2dbc:mysql://localhost:3306/hs_consumption?serverTimezone=America/Lima
     username: root
     password: BBDDlocal361
 
